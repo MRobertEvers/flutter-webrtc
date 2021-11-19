@@ -29,7 +29,7 @@
 
 -(void)mediaStreamTrackStartRecordToPath:(NSString *) path
                               videoTrack:(RTCVideoTrack *)track
-                              audioTrack:(RTCVideoTrack *)track
+                            //   audioTrack:(RTCAudioTrack *)track
                               recorderId:(int) recorderId
                                   result:(FlutterResult) result;
 
